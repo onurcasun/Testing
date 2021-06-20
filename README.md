@@ -1,6 +1,6 @@
 ## Welcome
 
-This is my own testing repository which I implement and test any algorithms. 
+This is my own testing repository which I implement and test any algorithms in Java.
 
 ## Folder Structure
 
