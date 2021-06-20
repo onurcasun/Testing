@@ -1,6 +1,6 @@
-## Getting Started
+## Welcome
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is my own testing repository which I implement and test any algorithms. 
 
 ## Folder Structure
 
