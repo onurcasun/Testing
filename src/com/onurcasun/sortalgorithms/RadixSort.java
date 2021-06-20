@@ -4,7 +4,7 @@ import com.onurcasun.util.ConsolePrinter;
 
 // Stable algorithm
 // O(n) - O(nlogn)
-// in place or not, again depends on which sort algorithm is used
+// in place or not, depends on which sort algorithm is used
 public class RadixSort {
 
     public static void Sort() {
