@@ -14,18 +14,18 @@ public class QuickSort {
         System.out.println("Unsorted Array: ");
         ConsolePrinter.print(intArray);
 
-        QuickSortImpl(intArray, 0, intArray.length);
+        quickSortImpl(intArray, 0, intArray.length);
         System.out.println("Sorted Array: ");
         ConsolePrinter.print(intArray);
     }
 
-    public static void QuickSortImpl(int[] input, int start, int end) {
+    private static void quickSortImpl(int[] input, int start, int end) {
         if (end - start < 2)
             return;
 
         int pivotIndex = partition(input, start, end);
-        QuickSortImpl(input, start, pivotIndex);
-        QuickSortImpl(input, pivotIndex + 1, end);
+        quickSortImpl(input, start, pivotIndex);
+        quickSortImpl(input, pivotIndex + 1, end);
     }
 
     private static int partition(int[] input, int start, int end) {
