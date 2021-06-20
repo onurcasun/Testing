@@ -89,7 +89,7 @@ public class RadixSort {
         }
     }
 
-    public static int getIndex(int position, String value) {
+    private static int getIndex(int position, String value) {
         return value.charAt(position) - 'a';
     }
 }

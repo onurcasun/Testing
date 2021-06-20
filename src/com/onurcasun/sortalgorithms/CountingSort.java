@@ -15,13 +15,13 @@ public class CountingSort {
         System.out.println("Unsorted Array: ");
         ConsolePrinter.print(intArray);
 
-        CountingSortImpl(intArray, 1, 10);
+        countingSortImpl(intArray, 1, 10);
         
         System.out.println("Sorted Array: ");
         ConsolePrinter.print(intArray);
     }
 
-    public static void CountingSortImpl(int[] input, int min, int max) {
+    private static void countingSortImpl(int[] input, int min, int max) {
 
         int[] countArray = new int[(max - min) + 1];
 
