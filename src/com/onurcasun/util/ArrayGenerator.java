@@ -21,7 +21,7 @@ public class ArrayGenerator {
         return new int[] {20, 35, -15, 7, 55, 1, -22};
     }
 
-    public static int GetRandomInt(){
+    private static int GetRandomInt(){
         return random.nextInt((max-min) + 1) + min;
     }
 }
